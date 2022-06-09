@@ -1,0 +1,153 @@
+
+a{
+	/*цвет ссылок*/
+	color: #ebebeb!important;
+	text-decoration: none!important;
+	line-height: 22px;
+}
+a:hover{
+	color: #968989!important;
+}
+p{
+	/*цвет текста*/
+	color: #746f6f;
+}
+body{
+	/*текст*/
+	font-size: 14px!important;
+	font-family: "Arial"!important;
+}
+span{
+	/*текст*/
+	color: #ebebeb;
+	font-weight: 600;
+	font-size: 14px;
+}
+.content_header{
+	/*отступы*/
+	margin-top: 4em;
+	padding-bottom: 24px;
+	/*линия*/
+	border-bottom: 2px solid #746f6f;
+}
+.logo{
+	/*position*/
+	background: #746f6f;
+	height: 130px;
+}
+.mid_content{
+	/*position*/
+	background: #746f6f;
+	height: 130px;
+}
+.right_content{
+	/*position*/
+	background: #746f6f;
+	height: 130px;
+	/*position flex*/
+	display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  /*отступы*/
+  padding-right: 2em;
+}
+section{
+	margin-top: 24px;
+}
+.enumeration{
+	/*position flex*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	/*position*/
+	background: #746f6f;
+	/*отступ*/
+	padding: 1em;
+}
+.content_main{
+	/*position*/
+	background: #d6d5d5;
+	height: 200px;
+	/*отступы*/
+	margin-bottom: 24px;
+}
+.box{
+	/*position*/
+	background: #d6d5d5;
+	height: 150px;
+	/*отступы*/
+	margin-bottom: 24px;
+}
+.box_text{
+	/*position*/
+	background: #d6d5d5;
+	/*отступы*/
+	padding: 2em;
+}
+.content_footer{
+	/*отступы*/
+	margin-top: 24px;
+	margin-bottom: 4em;
+	/*линия*/
+	border-top: 2px solid #746f6f;
+}
+.bread_crumbs{
+	/*отступы*/
+	margin-top: 24px;
+	padding: 2em;
+	/*position*/
+	background: #746f6f;
+	height: 224px;
+}
+.bread_crumbs p{
+	color: #ebebeb;
+}
+.box_footer{
+	/*position*/
+	background: #746f6f;
+	height: 100px;
+	margin-top: 24px;
+}
+
+::marker{
+	/*цвет маркера*/
+	color: #ebebeb;
+	font-size: 15px;
+}
+.bread_crumbs_text p{
+	margin-bottom: 5px;
+}
+
+
+/*медиа*/
+
+
+@media (max-width: 768px){
+	.logo{
+		height: 100px;
+	}
+	.mid_content{
+		height: 100px;
+	}
+	.right_content{
+		height: 100px;
+	}
+	.box_text{
+		margin-bottom: 24px;
+	}
+}
+@media (max-width: 576px){
+	body{
+		/*текст*/
+		font-size: 12px!important;
+		font-family: "Arial"!important;
+	}
+	.bread_crumbs{
+		padding: 1em;
+	}
+	.bread_crumbs li{
+		list-style-position: inside;
+	}
+}
+
